@@ -8,8 +8,10 @@ As of now, I only have installation rules for Linux, but there will be more soon
 
 ## RHEL-based Linux
 ```bash
-# Install .NET 10 and COSMOS prereqs
+# Install .NET 10 and COSMOS prereqs, git
 sudo dnf install -y dotnet-sdk-10.0 qemu-system-x86 xorriso lld clang
+sudo dnf install git
+
 
 
 # Install COSMOS
