@@ -11,7 +11,7 @@ namespace KDOS;
 public class Kernel : Sys.Kernel
 {
     private string currUser = "placeholder";
-    private double ver = 0.1;
+    private string ver = "v0.1-alpha";
     protected override void BeforeRun()
     {
         Console.Write("Enter your username: ");
@@ -23,7 +23,7 @@ public class Kernel : Sys.Kernel
 
     protected override void Run()
     {
-        Console.Write("KDOS: ");
+        Console.Write($"KDOS {ver}: ");
         var userCmd = Console.ReadLine();
 
         if (string.IsNullOrEmpty(userCmd))
