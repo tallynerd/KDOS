@@ -1,5 +1,5 @@
 # KDOS
-My COSMOS C# os built pretty much from scratch.
+My COSMOS C# OS built pretty much from scratch.
 
 
 ## Installation
